@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Integration]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Integaration Test_Cases(failed)">
+    <classes>
+      <class name="SeleniumProgram.Prog2">
+        <methods>
+          <include name="Searching"/>
+        </methods>
+      </class> <!-- SeleniumProgram.Prog2 -->
+      <class name="SeleniumProgram.TestCase1">
+        <methods>
+          <include name="login_Amazon"/>
+        </methods>
+      </class> <!-- SeleniumProgram.TestCase1 -->
+    </classes>
+  </test> <!-- Integaration Test_Cases(failed) -->
+</suite> <!-- Failed suite [Integration] -->
